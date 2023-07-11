@@ -4,7 +4,7 @@
 Compile it using:
 
 ```bash
-gcc -o main mandelbrot.c -lm
+gcc -o main mandelbrot.c -lm -lSDL
 ```
 Replace madelbrot.c with julia.c depending on which one you want to generate.
 
