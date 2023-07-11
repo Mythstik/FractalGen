@@ -25,6 +25,7 @@ Change the resolution by modifying the WIDTH and HEIGHT definitions.
 
 Change the colors of the set by adding or removing colors from this, the colors can be any amount. It uses the RGBA format the alpha doesnt matter.
 
+```c
 SDL_Color palette[] = {
     {  10,  15,  20, 255 }, // Dark blue-gray
     {  20,  30,  40, 255 }, // Deep blue-gray
@@ -54,3 +55,4 @@ SDL_Color palette[] = {
     {  90,  90,  90, 255 }, // Black
     {  50,  75, 100, 255 }, // Blue-gray (repeat)
 };
+```
